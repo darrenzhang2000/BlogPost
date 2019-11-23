@@ -1,0 +1,12 @@
+<% include ./partials/header %>
+<h1> Create new blog</h1>
+<form action="/blogs" method="post">
+    <input type="text" placeholder="title" name="blog[title]">
+    <br>
+    <input type="text" placeholder="image url" name="blog[image]">
+    <br>
+    <input type="text" placeholder="description" name="blog[description]">
+    <br>
+    <input type="submit">
+</form>
+<% include ./partials/footer %>
